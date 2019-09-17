@@ -9,7 +9,7 @@
 .project-header {
     color: white;
     text-align: center;
-    background-image: url("/images/background.png");
+    background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,10 +17,15 @@
     padding: 100px;
     margin-bottom: 30px;
     font-size: 50px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 .project-header h1{
-    color: white;
+    color: wheat;
+    text-shadow: 2px 2px 2px #110101,
+        2px 2px 53px #000,
+        3px 3px 76px #000,
+        4px 4px 88px #000;
+
 }
 
 .project-main{
@@ -67,7 +72,7 @@
     backface-visibility: hidden;
   }
   .project-image .image{
-    opacity: 0.5;
+    opacity: 0.6;
 }
 a{
     text-decoration: none;
