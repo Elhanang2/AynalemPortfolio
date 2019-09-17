@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aynalem Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation bar and logo -->
+        <header>
+            <div class="container-header" id="container-header">
+                <div>
+                <div class="logo">Aynalem</div>
+                <nav>
+                    <div class="menu-toggle " onclick="humberger(this)"> 
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                    <ul class="list-item">
+                        <li><a href="#home" >home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#project">project</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <li><a href="#">resume</a></li>
+                    </ul>
+                </nav>
+                <div class="clearfix"></div>
+            </div><hr>
+            </div>
+        </header>
+        <!-- All sections below navigation bar -->
+        <div class="section-container">
+            <!-- Home page Name and title -->
+            <section class="home" id="home">
+                <div  class="myname">
+                        <h1 data-text="Aynalem Getanhe" >Aynalem Getanhe</h1>
+                </div>
+                <div class="home-heading">
+                        <h6 data-text="Full-Stack Web Developer" >Full-Stack Web Developer</h6>
+                </div>
+                
+                <p class="arrow down"></p>
+            </section>
+            <section class="about" id="about">
+                <div class="about-content">
+                    <div class="protfolio-image">
+                        <img  src="./images/portfolio.jpg" alt="Aynalem Image" srcset="">
+                    </div>
+                    <div class="about-text">
+                        <h2 class="about-heading">About Me</h2>
+                        <p>My name is Aynalem and I am a Full stack web developer with experiance in aerospace NDT inspector.
+                            Since starting the Full Stack Web Development Bootcamp at UCLA, 
+                            I’ve come to appreciate every stage in the process of creating a client-side app,
+                            the initial problem solving and wire-framing of a project, building the logic with Javascript,
+                            transforming the UI with CSS, and solving the inevitable bugs. Through my experiences,
+                            I’ve developed strong skills in communication and cross-team collaboration. 
+                            I truly enjoy getting to know my team members and collaborating on projects that make an impact.
+                            My experience working at aerospace industry taught me to handle issues quickly,
+                            adapt to constant change,ready for challenge and always strive for improvement.
+                        </p>
+                        <div class="skill">
+                                <h2>Skills</h2>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3</li>
+                                    <li>JavaScript</li>
+                                    <li>jQuery</li>
+                                    <li>Bootstrap</li>
+                                    <li>Ajax</li>
+                                    <li>React</li>
+                                    <li>MySql</li>
+                                    <li>Mongodb</li>
+                                    <li>Nodejs</li>
+                                    <li>APIs</li>
+                                    <li>JSON</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                
+            </section><br>
+            <section class="project" id="project">
+                <div class="project-container">
+                    <div class="project-header">
+                        <h2>Some Of My Works</h2>
+                    </div>
+                    <div class="project-main">
+                        <div   data-aos="fade-down-right" class="project-image dog-image">
+                           <a href="/projectHtml/dogLog.html"> <img class="image" src="/images/dog.jpg" alt="Dog Image"> 
+                            <div class="img-text">
+                                <div class="text">Dog Log</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="fade-down-left" class="project-image train-image">
+                            <a href="/projectHtml/train.html">
+                                <img class="image" src="/images/train.jpeg" alt="Train Image">
+                            <div class="img-text">
+                                <div class="text">Train Scheduler</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="flip-left" class="project-image burger-image">
+                            <a href="/projectHtml/burger.html">
+                                <img class="image" src="/images/burger1.jpg" alt="Burger Image">
+                            <div class="img-text">
+                                <div class="text">Eat-Da-Burger</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="flip-right" class="project-image friends-image">
+                            <a href="/projectHtml/friendsFinder.html">
+                                <img class="image" src="/images/friends.jpg" alt="Friends Image">
+                            <div class="img-text">
+                                <div class="text">Friends Finder</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="zoom-in" class="project-image trivia-image">
+                            <a href="/projectHtml/trivia.html">
+                                <img class="image" src="/images/trivia.jpg" alt="Trivia Image">
+                            <div class="img-text">
+                                <div class="text">Trivia Game (quiz)</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="zoom-in-down" class="project-image wordGuess-image">
+                            <a href="/projectHtml/wordGuess.html"><img class="image" src="/images/wordguess.jpg" alt="Word Guess Image">
+                            <div class="img-text">
+                                <div class="text">Word Guess Game</div>
+                            </div></a>
+                        </div>
+                        <div data-aos="zoom-in" class="project-image crystal-image">
+                             <a href="/projectHtml/crystal.html"><img class="image" src="/images/crystal1.jpg" alt="Crystal Image">
+                            <div class="img-text">
+                                <div class="text">Cristal Collector </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+
+        </div>
+        <footer class="footer-container" id="contact">
+
+            <ul class="footer1">
+                <li ><a href="tel:+1323-593-0195" ><i class="fas fa-phone"></i></a></li>
+                <li><a href="mailto:aynazewdg37@gmail.com" ><i class="fas fa-envelope"></i></a></li>
+                <li><a href="https://www.facebook.com/aynalem.zewdie" ><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://twitter.com/Aynalem38709427" ><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/aynalem-getanhe" ><i class="fab fa-linkedin-in"></i></a></li>     
+            </ul>
+            <div  class="footer2">
+                <span>aynalem@2018</span>  
+            </div> 
+            <div id="button"><a href="test.html">Log In</a></div>
+            <!-- <button onclick="test()">click</button> -->
+            <!-- <object class="test"  data="test.html"></object> -->
+        </footer>
+        
+    </div>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/javaScript/project.js"></script>
+</body>
+</html>

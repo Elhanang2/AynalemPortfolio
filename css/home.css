@@ -1,0 +1,102 @@
+.home {
+    margin:  0;
+    padding: 0;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 2;
+}
+h1{
+    font-size: 5rem;
+}
+h6{
+    font-size: 3rem;
+}
+
+h1,
+h6 {
+    /* background-image: inherit; */
+    
+}
+
+@media only screen and (max-width: 850px){
+    h1 {
+        font-size: 7vw;
+    }
+    
+    h6 {
+        font-size: 5vw;
+    }
+}
+
+h1,
+h6 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url("../images/name-background.jpg");
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate 15s linear infinite;
+    
+}
+
+
+
+h1::after, h6::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-shadow: 2px 2px 2px #110101,
+        2px 2px 3px #000,
+        3px 3px 6px #000,
+        4px 4px 8px #000;
+
+    z-index: -1;
+}
+
+@keyframes animate {
+    0% {
+        background-position: left 0px top 10px;
+    }
+
+    40% {
+        background-position: left 800px top 10px;
+    }
+
+    100% {
+        background-position: left 2000px top 10px;
+    }
+
+}
+.arrow {
+    /* position: relative; */
+    border: solid rgb(92, 187, 216);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 15px;
+    margin-top: 13rem ;
+    margin-bottom: 0;
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .home p{
+      text-align: center;
+  }
+  
+  

@@ -1,0 +1,39 @@
+
+.footer-container{
+    /* padding: 20px; */
+    padding:0;
+    margin:0;
+}
+.footer1{
+    height: 20vh;
+    background-color: #071430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container ul {
+    
+}
+.footer-container ul li{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.footer-container ul li a{
+    text-decoration: none;
+    color: rgb(91, 173, 194);
+}
+.footer2{
+    padding: 20px;
+    color:rgb(126, 125, 125);
+    text-align: center;
+}
+
+@media only screen and (min-width: 850px){
+    .footer-container ul li{
+        
+        font-size: 25px;
+        
+    }
+}
