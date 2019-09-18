@@ -6,7 +6,7 @@
     
 }
 .dogLog{
-    background: linear-gradient(rgba(92, 44, 22, 0.5), rgba(7,7,7,0.5)), url("../images/dogbackground.jpg");
+    background: linear-gradient(rgba(92, 44, 22, 0.5), rgba(7,7,7,0.5)), url("../images/dogBackground.jpg");
 }
 .crystal{
     background: linear-gradient(rgba(85, 39, 18, 0.527), rgba(25,7,7,0.5)), url("../images/crystalbackground.jpg");
