@@ -9,6 +9,7 @@
 .project-header {
     color: white;
     text-align: center;
+    /* background: linear-gradient(rgba(240, 242, 245, 0.6), rgba(240, 242, 245, 0.6)), url("../images/background.png"); */
     background-image: url("../images/background.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -17,7 +18,9 @@
     padding: 100px;
     margin-bottom: 30px;
     font-size: 50px;
+    text-shadow: 2px 2px 2px black;
     /* opacity: 0.6; */
+    /* color: rgba(240, 242, 245, 0.6) */
 }
 .project-header h1{
     color: wheat;

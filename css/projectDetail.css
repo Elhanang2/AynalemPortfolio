@@ -9,7 +9,8 @@
     background: linear-gradient(rgba(92, 44, 22, 0.5), rgba(7,7,7,0.5)), url("../images/dogbackground.jpg");
 }
 .crystal{
-    background: linear-gradient(rgba(85, 39, 18, 0.527), rgba(25,7,7,0.5)), url("../images/crystalbackground.jpg");
+    background-image: linear-gradient(to top, #083a69 0%, #043155 100%);
+    /* background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%); */
 }
 .train{
     background: linear-gradient(rgba(70,7,7,0.5), rgba(7,7,5,0.7)), url("../images/trainbackground.jpg");
@@ -46,7 +47,7 @@
     color: rgb(231, 203, 43);
 }
 .crystal-description h1, .crystal-responsive-page h1{
-    color: rgb(9, 81, 238);
+    color: #fbeec1;
 }
 .train-description h1, .train-responsive-page h1{
     color: rgb(36, 168, 230);
@@ -73,7 +74,7 @@
     
 }
 .crystal-button{
-    background-color: rgb(9, 81, 238);
+    background-color: #fbeec1;
 }
 .train-button{
     background-color:rgb(17, 113, 158);
@@ -189,3 +190,4 @@ button{
 /* ************************* */
 /* Crystal Collector style */
 
+/* background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%); */
