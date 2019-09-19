@@ -130,17 +130,17 @@ button{
 }
 
 .mobile{
-   width: 250px;
+   width: 200px;
    
    align-self: center;
 }
 .laptop{
-   width:480px;
+   width:320px;
    align-self: center
    
 }
 .tablet{
-  width: 350px;
+  width: 280px;
   align-self: center
    
 }
