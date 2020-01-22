@@ -5,12 +5,12 @@
     font-family: Open Sans;
     
 }
-.dogLog{
+/* .dogLog{
     background: linear-gradient(rgba(92, 44, 22, 0.5), rgba(7,7,7,0.5)), url("../images/dogbackground.jpg");
 }
 .crystal{
     background-image: linear-gradient(to top, #083a69 0%, #043155 100%);
-    /* background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%); */
+    
 }
 .train{
     background: linear-gradient(rgba(70,7,7,0.5), rgba(7,7,5,0.7)), url("../images/trainbackground.jpg");
@@ -20,20 +20,20 @@
 }
 .wordGuess{
     background-color: rgb(6, 76, 122);
-    /* background: linear-gradient(rgba(46, 122, 185, 0.7),rgba(46, 122, 185, 0.7)); */
+    
 }
 .trivia{
     background: linear-gradient(rgba(5,5,2,0.8), rgba(5,5,5,0.8)), url("../images/triviabackground.jpg");
-}
+} */
 .project-description-container{
-    /* background-image: url("../images/dogBackground.jpg"); */
+    
     margin: -25px 0 ;
     padding:0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    
+    /* background-image: linear-gradient(to top, #083a69 0%, #043155 100%); */
     width:100%;
     height:100%;
     
@@ -43,11 +43,14 @@
     padding: 20px;
     text-align: center;
 }
-.dog-responsive-page h1, .dog-description h1{
-    color: rgb(231, 203, 43);
+.responsive-page h1, .description h1{
+    /* color: rgb(231, 203, 43); */
+}
+.dog-description h1, .dog-responsive-page h1{
+    color: rgb(230, 197, 14);
 }
 .crystal-description h1, .crystal-responsive-page h1{
-    color: #fbeec1;
+    color: #337eb1;
 }
 .train-description h1, .train-responsive-page h1{
     color: rgb(36, 168, 230);
@@ -59,7 +62,7 @@
     color: rgb(67, 223, 223);
 }
 .trivia-description h1, .trivia-responsive-page h1{
-    color: rgb(206, 67, 25);
+    color: orangered;
 }
 .description p{
     font-size: 22px;
@@ -67,26 +70,28 @@
     word-spacing: 1px;
     letter-spacing: 1px;
     text-transform: capitalize;
-    color: rgb(187, 184, 184);
+    /* color: rgb(187, 184, 184); */
 }
 .dog-button{
-    background-color:  rgb(231, 203, 43);
-    
+    background-color: rgb(253, 182, 89);
 }
 .crystal-button{
-    background-color: #fbeec1;
+    background-color: #533920;
 }
 .train-button{
-    background-color:rgb(17, 113, 158);
+    background-color: rgb(161, 134, 98);
 }
 .friends-button{
     background-color:rgb(248, 233, 205);
 }
 .wordGuess-button{
-    background-color:rgb(67, 223, 223);
+    background-color: rgb(85, 61, 61);
 }
 .trivia-button{
-    background-color:rgb(206, 67, 25);
+    background-color:rgb(253, 211, 132);
+}
+.restaurant-button{
+    background-color: rgb(70, 68, 66);
 }
 button{
     margin: 20px auto;
@@ -94,13 +99,14 @@ button{
     font-size: 20px;
     border: none;
     border-radius: 10px;
+    
 }
 .button{
     text-align: center;
 }
  button a{
      text-decoration: none;
-     color: rgb(7, 7, 7);
+     color: white;
  }
  button a:hover{
     text-decoration: none;

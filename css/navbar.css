@@ -7,8 +7,6 @@
 .container{
     background-color: #1c2a48;
     overflow: hidden;
-    /* position: relative;  */
-    /* width: 100%; */
     z-index: -3; 
 }
 .section-container{
@@ -20,14 +18,12 @@ hr{
 }
 .container-header{
     position: relative;
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin: 0 ;
     background-color:#1c2a48;
     z-index: 2;  
 }
-/* .container-header{
-    background-color: #071430;
-} */
+
 .logo{
     /* padding-bottom: 15px; */
     margin: 20px;
